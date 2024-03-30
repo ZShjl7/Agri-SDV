@@ -91,7 +91,7 @@ def suggest(ndvi_results, savi_results, ndmi_results):
 
         print(f"\n\nOverall health for {os.path.basename(ndvi_result[0])}, {os.path.basename(savi_result[0])} and {os.path.basename(ndmi_result[0])}: {overall_health}")
 
-        return(f"\n\nOverall health for {os.path.basename(ndvi_result[0])}, {os.path.basename(savi_result[0])} and {os.path.basename(ndmi_result[0])}: {overall_health}")
+        return(f"\n\nOverall health: {overall_health}")
 
 @app.route('/test',methods=['POST'])
 def test():

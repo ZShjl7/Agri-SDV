@@ -29,8 +29,8 @@ def calculate_and_save_ndvi(image_path, output_directory, counter):
     # Save the plot as an image file in the specified output directory with sequential numbering
     output_filename = os.path.join(output_directory, f"ndvi-test_{counter}.png")
     plt.savefig(output_filename, dpi=300, bbox_inches='tight', pad_inches=0.1)
-    plt.show()
-    plt.close()  # Close the plot to free memory
+    # plt.show()
+    # plt.close()  # Close the plot to free memory
 
     print(f"Processed NDVI: {output_filename}")
 

@@ -42,6 +42,7 @@ const Monitor = () => {
   return (
     <>
       <Navbar />
+
       <Grid container spacing={2}>
         <Grid item xs={8}>
           <Upload onImageUpload={handleImageUpload} />
@@ -50,12 +51,13 @@ const Monitor = () => {
           <div className="answerbox">
             <p>
               {veg.map((text) => {
-                return <p style={{color:theme ==="High" ? "green" : theme ==="Moderate" ? "yellow": theme ==="Low" ? "red": "black"}}>{text}</p>;
+                  return <p style={{color:theme ==="High" ? "green" : theme ==="Moderate" ? "blue": theme ==="Low" ? "red": "black"}}>{text}</p>;
               })}
             </p>
           </div>
         </Grid>
       </Grid>
+
     </>
   );
 };

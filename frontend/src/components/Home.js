@@ -9,27 +9,31 @@ const Box = () => {
       <div
         style={{
           width: "100vw",
-          maxWidth: "79rem",
+          maxWidth: "82rem",
           height: "20rem",
-          background: "darkgreen",
+          backgroundColor: "#0d7663",
+          // backdropFilter: "blur(5px)",
           margin: "0 auto",
           display: "flex",
+          boxshadow: "0px 2px 5px rgba(0, 0, 0, 0.851)",
         }}
       >
-        <div style={{  textAlign: "center" }}>
+        <div style={{ textAlign: "center" }}>
           {/* Text content */}
-          <h1 style={{ paddingTop: "20px", color: "white" }}>
+          <h1 style={{ paddingTop: "20px", color: "white", fontSize: "40px" }}>
             Crop Monitoring
           </h1>
-          <p style={{ color: "white" }}>
-            Crop monitoring using space-based information to monitor the crop
-            health status and predict the crop yield. The approach takes
-            advantage of earth observation information provided by the satellite
-            sensors, which are able to observe vegetation on a daily basis and
-            derive different vegetation indices.
+          <p style={{ color: "white", padding: "10px", fontSize: "20px" }}>
+            In the ever-evolving landscape of agriculture, precision and
+            efficiency are paramount. Farmers and agronomists face the ongoing
+            challenge of maximizing yields while minimizing resource use and
+            environmental impact. In response to this need, we proudly present
+            our approach to it that provides a suggestion considering crop
+            health issues that helps farmers to make better decisions for their
+            crop.
           </p>
         </div>
-        <div style={{ }}>
+        <div style={{}}>
           {/* Image content */}
           <img
             src={Pic}
@@ -51,29 +55,30 @@ const Box = () => {
           style={{
             width: "35rem",
             height: "13rem",
-            background: "darkgreen",
+            background: "#0d7663",
             textAlign: "center",
           }}
         >
-          <h2 style={{ paddingTop: "30px", color: "white" }}>We Provide</h2>
-          <p style={{ color: "white" }}>A better visualization</p>
-          <h5 style={{ color: "white" }}>NDVI index, NDMI index, SDVI index</h5>
-         
+          <h2 style={{ color: "white", fontSize: "35px" }}>We Provide</h2>
+          <p style={{ color: "white" }}>A better Suggetion</p>
+          <h5 style={{ color: "white", padding: "8px" }}>
+            Our team make sure that you gain a better experiance with us and
+            detect the crop health issue with its causes.
+          </h5>
         </div>
         <div
           style={{
             width: "35rem",
             height: "13rem",
-            background: "darkgreen",
+            background: "#0d7663",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <p style={{ color: "white" }}>
-            Start to visualize your crop health and get benefited by our
-            suggestion
+          <p style={{ color: "white", fontSize: "30px" }}>
+            Hit the start button and get benefitted by our suggestion
           </p>
           <Link to="/Monitor">
             <button

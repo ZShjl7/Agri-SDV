@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="container">
           <a href="/" className="logo-container">
             <img src={logo} alt="Logo" className="logo" />
-            <h1 className="site-name">SDV</h1>
+            <h1 className="site-name">COUNTRYSIDE</h1>
           </a>
           <div className="nav-links">
            

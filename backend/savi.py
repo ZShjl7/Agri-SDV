@@ -21,8 +21,8 @@ def calculate_and_save_savi(image_path, output_directory, counter):
 
     output_filename = os.path.join(output_directory, f"savi-test_{counter}.png")
     plt.savefig(output_filename, dpi=300, bbox_inches='tight', pad_inches=0.1)
-    plt.show()
-    plt.close()
+    # plt.show()
+    # plt.close()
 
     print(f"Processed SAVI: {output_filename}")
 

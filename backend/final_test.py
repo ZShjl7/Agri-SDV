@@ -57,9 +57,9 @@ def predict_and_display_results(test_folder, model_path, class_names):
         image = Image.open(image_path)
 
         # Display the image
-        plt.imshow(image)
-        plt.axis('off')
-        plt.show()
+        # plt.imshow(image)
+        # plt.axis('off')
+        # plt.show()
 
         # Print the predicted label
         print(f"Predicted Class for {os.path.basename(image_path)}: {predicted_label}")
