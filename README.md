@@ -44,10 +44,12 @@ The process involves data collection, preprocessing, CNN architecture design, mo
     [![NDVI image](https://i.postimg.cc/D02RrTsG/Screenshot-2024-08-13-184833.png)](https://postimg.cc/8J0yGxZk)
 
 - **SAVI (Soil-Adjusted Vegetation Index):** Similar to NDVI but adjusted for soil brightness. It improves vegetation detection in areas with sparse vegetation and varying soil conditions.
-    [!SAVI](https://i.postimg.cc/7hP2DsBV/Screenshot-2024-08-13-185809.png)](https://postimg.cc/wyPvQVYy)
+
+   [!SAVI](https://i.postimg.cc/7hP2DsBV/Screenshot-2024-08-13-185809.png)](https://postimg.cc/wyPvQVYy)
 
 - **NDMI (Normalized Difference Moisture Index):** Assesses moisture content in vegetation by comparing NIR and shortwave infrared (SWIR) bands. It helps identify areas with high or low moisture content.
-    [![NDMI](https://i.postimg.cc/vBTys5rn/Screenshot-2024-08-13-185943.png)](https://postimg.cc/zLs6wbPD)
+
+  [![NDMI](https://i.postimg.cc/vBTys5rn/Screenshot-2024-08-13-185943.png)](https://postimg.cc/zLs6wbPD)
 
 ## Model Outputs
 
