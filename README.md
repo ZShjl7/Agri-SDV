@@ -46,8 +46,6 @@ The process involves data collection, preprocessing, CNN architecture design, mo
 
 - **NDMI (Normalized Difference Moisture Index):** Assesses moisture content in vegetation by comparing NIR and shortwave infrared (SWIR) bands. It helps identify areas with high or low moisture content.
 
-  [![NDMI](https://i.postimg.cc/vBTys5rn/Screenshot-2024-08-13-185943.png)](https://postimg.cc/zLs6wbPD)
-
 ## Model Outputs
 
 - Classification based on NDVI, SAVI, and NDMI images to detect anomalies.
