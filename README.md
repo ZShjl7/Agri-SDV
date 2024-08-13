@@ -41,11 +41,8 @@ The process involves data collection, preprocessing, CNN architecture design, mo
 ## Model Inputs
 
 - **NDVI (Normalized Difference Vegetation Index):** Measures vegetation health by comparing the difference between near-infrared (NIR) and red light. Higher NDVI values indicate healthier vegetation.
-    [![NDVI image](https://i.postimg.cc/D02RrTsG/Screenshot-2024-08-13-184833.png)](https://postimg.cc/8J0yGxZk)
 
 - **SAVI (Soil-Adjusted Vegetation Index):** Similar to NDVI but adjusted for soil brightness. It improves vegetation detection in areas with sparse vegetation and varying soil conditions.
-
-   [!SAVI](https://i.postimg.cc/7hP2DsBV/Screenshot-2024-08-13-185809.png)](https://postimg.cc/wyPvQVYy)
 
 - **NDMI (Normalized Difference Moisture Index):** Assesses moisture content in vegetation by comparing NIR and shortwave infrared (SWIR) bands. It helps identify areas with high or low moisture content.
 
@@ -54,6 +51,5 @@ The process involves data collection, preprocessing, CNN architecture design, mo
 ## Model Outputs
 
 - Classification based on NDVI, SAVI, and NDMI images to detect anomalies.
-  [![Output Screenshot](https://i.postimg.cc/HLJ31xJx/Screenshot-2024-08-13-185335.png)](https://postimg.cc/3yT2g3F5)
 
 
