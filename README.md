@@ -36,7 +36,7 @@ The process involves data collection, preprocessing, CNN architecture design, mo
 - **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras
 - **Data Visualization:** Matplotlib, Seaborn, EarthPy, RasterIO, Plotly
 - **Development Environments:** Jupyter Notebook, Google Colab
-- **Web Development Technologies:** React, CSS, Falsk
+- **Web Development Technologies:** React, CSS, Flask
 
 ## Model Inputs
 
